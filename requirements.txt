@@ -1,0 +1,26 @@
+# Dipendenze di SO-VVF-NEXT
+
+# Calcolo numerico e dati
+numpy>=1.26
+pandas>=2.2
+
+# Machine learning e valutazione
+scikit-learn>=1.7  # KBinsDiscretizer con quantile_method
+joblib>=1.4
+
+# Rete bayesiana: DiscreteBayesianNetwork richiede pgmpy 1.x; BayesianEstimator è rimosso in 1.3
+pgmpy>=1.0,<1.3
+
+# Prolog (wrapper per SWI-Prolog)
+pyswip>=0.2.10
+
+# Grafici
+matplotlib>=3.9
+
+# Ottimo esatto dell'assegnazione (algoritmo ungherese), riferimento per il simulated annealing
+scipy>=1.11
+
+# Test
+pytest>=8.2
+
+
